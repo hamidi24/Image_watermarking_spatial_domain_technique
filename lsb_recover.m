@@ -1,7 +1,6 @@
 
 
-% save start time
-start_time=cputime;
+
 
 % Lire l'image tatouée
 file_name='lsb_watermarked.bmp';
@@ -21,8 +20,6 @@ end
 % Redimensionner la marque
 watermark=256*double(watermark);
 
-% Temps de traitement (d'execution)
-elapsed_time=cputime-start_time,
 
 % Lire la marque originale (en cas d'utilisation de PSNR pour la comparer
 % avec celle extraite)
